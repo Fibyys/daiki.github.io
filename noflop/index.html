@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/e.png">
+</head>
+
+<body>
+
+    <div class="main"></div>
+
+    <div class="central">
+        <h1 class="title">Vensou</h1>
+        <hr>
+        <div class="imgbox">
+            <img src="images/pinkk.jpeg" alt="profile" id="pp">
+        </div>
+        <div class="central3">
+            <h2 class="texty">ptdprprpr je sais pas quoi mettre mais t'inquiète projet en cours LE PROJET LE PROJET !</h2>
+        </div>
+        <div class="central2">
+            <h2 class="texty">Salut je suis Sven et je suis une merde indépendante et aussi je me déteste de zinzin</h2>
+        </div>
+        <div class="central4">
+            <ul>
+                <li class="social"><a target="_blank" href><i class='bx bxl-instagram' style='color:#f9f9f9'></i></a></li>
+                <li class="social"><a target="_blank" href><i class='bx bxl-youtube' style='color:#f9f9f9'></i></a></li>
+                <li class="social"><a target="_blank" href="https://discord.gg/XcaveaCGTF"><i class='bx bxl-discord-alt' style='color:#f9f9f9'></a></i></li>
+                <li class="social"><a target="_blank" href="https://twitter.com/tsv3ns?lang=bg"><i class='bx bxl-twitter' style='color:#f9f9f9'></i></a></li>
+            </ul>
+        </div>
+        <div class="central5">
+            <ul class="lulu">
+                <li class="lili" ><img src="images/code.jpg" class="deco">Project</li>
+                <li class="lili"><img src="images/code.jpg" class="deco">Unity</li>
+                <li class="lili"><img src="images/adobe.jpg" class="deco">Video Editing</li>
+
+            </ul>
+            <h2 class="texty" id="P">Project</h2>
+            <h2 class="texty" id="U">Unity</h2>
+            <h2 class="texty" id="E">Editing</h2>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- thanks to wheresdara for the code appreciate !!!
+    https://codepen.io/wheresdara/pen/wvXBpwa-->
+    <script>function randomNumber(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min
+    }
+    
+    const STAR_COUNT = 2000
+    let result = ""
+    for(let i = 0; i < STAR_COUNT; i++){
+        result += `${randomNumber(-50, 50)}vw ${randomNumber(-50, 50)}vh ${randomNumber(0, 1)}px ${randomNumber(0, 1)}px #fff,`
+    }
+    console.log(result.substring(0, result.length - 1))
+    </script>
+
+
+</body>
+</html>
